@@ -34,3 +34,4 @@ export const Title: React.FC<Props> = ({text, size = 'sm', className}) => {
         text,
     );
 };
+
