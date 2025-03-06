@@ -1,6 +1,5 @@
 import React from 'react';
-import { checkbox } from '../ui/checkbox';
-import { Checkbox } from '@radix-ui/react-checkbox';
+import { Checkbox } from '../ui/checkbox';
 
 export interface FilterCheckBoxProps {
     text: string;
@@ -23,7 +22,7 @@ export const FilterCheckBox: React.FC<FilterCheckBoxProps> = ({
             onCheckedChange={onCheckedChange}
             checked={checked}
             value={value}
-            className="rounded-[8px] 2-6 h-6"
+            className="rounded-[8px] w-6 h-6"
             id={`checkbox-${String(value)}`}
             />
             <label
@@ -34,5 +33,5 @@ export const FilterCheckBox: React.FC<FilterCheckBoxProps> = ({
             </label>
             {endAdornment}
         </div>
-    )
+    );
 }

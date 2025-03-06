@@ -8,9 +8,11 @@ export default function Home() {
       <>
       <Container className="mt-10">
         <Title className="font-extrabold" text-size="lg" text={"Все пиццы"}/>
-        <TopBar />
       </Container>
-      <Container className="pb-14">
+
+        <TopBar />
+
+      <Container className="mt-10 pb-14">
         <div className="flex gap-[60px]">
           {/* Фильтрация */}
           <div className="w-[250px]">
