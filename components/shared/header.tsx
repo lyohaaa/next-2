@@ -20,7 +20,7 @@ export const Header: React.FC<Props> = ({ className }) => {
                     <Image src="/logo.svg" alt="" width={35} height={35} />
                     <div>
                         <h1 className='font-black uppercase text-2xl'>next pizza</h1>
-                        <p>вкусней уже некуда</p>
+                        <p>Вкусней уже некуда</p>
                     </div>
                 </div>
 
