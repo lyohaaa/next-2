@@ -1,5 +1,4 @@
 import { FilterCheckBox } from './filter-checkbox';
-
 export { Container } from './container';
 export { Categories } from './categories';
 export { Header } from './header';
