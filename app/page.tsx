@@ -36,6 +36,18 @@ export default function Home() {
               },
               
               ]} categoryId={1} />
+              <ProductsGroupList
+              title="Завтрак" 
+              items={[
+              {
+                id: 2,
+                name: 'Чизбургер-пицца',
+                imageUrl: 'https://irecommend.ru/sites/default/files/product-images/278223/XRIa4KxVJxkTmHSqcYXbg.jpg',
+                price: 550,
+                items: [{ price: 550 }],
+              },
+              
+              ]} categoryId={2} />
             </div>
           </div>
         </div>
